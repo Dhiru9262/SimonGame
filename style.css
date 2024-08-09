@@ -1,0 +1,50 @@
+body{
+ background-color: rgb(2, 15, 37);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+
+.head{
+  margin-top: 2px;
+  color: antiquewhite;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  font-size: 5rem;
+  font-weight: 900;
+}
+.button-container{
+  width: 40rem;
+display: flexbox;
+justify-content: center;
+margin-top: 3rem;
+margin-left: 19rem;
+}
+.btn{
+  border: 8px solid black;
+  border-radius: 4rem;
+  margin: 1rem;
+  width: 16rem;
+  height: 16rem;
+  
+}
+.green{
+  background-color: green;
+}
+.red{
+  background-color: red;
+}
+.yellow{
+  background-color: yellow;
+}
+.blue{
+  background-color: blue;
+}
+.colName{
+  opacity: 0;
+}
+.blink{
+  opacity: 0.3;
+}
+.error{
+  background-color: red;
+}
