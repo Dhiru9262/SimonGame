@@ -13,11 +13,12 @@ body{
   font-weight: 900;
 }
 .button-container{
+ margin: auto;
   width: 40rem;
 display: flexbox;
 justify-content: center;
-margin-top: 3rem;
-margin-left: 19rem;
+/* margin-top: 3rem;
+margin-left: 19rem; */
 }
 .btn{
   border: 8px solid black;
